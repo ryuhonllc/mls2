@@ -1,0 +1,8 @@
+numpy
+jupyter
+matplotlib
+scipy
+pandas
+h5py
+begins
+# pymc must be installed separately
