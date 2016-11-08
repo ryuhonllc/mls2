@@ -8,6 +8,10 @@ This session will focus on support tools for machine learning, plus a brief surv
 
 Since this session has two target audiences, it will be difficult to address both. Try pairing up to share expertise.
 
+```
+  note: the links in this readme are intended to be executed from an jupyter notebook
+```
+
 # Support Tools
 
 Perhaps more than other areas, machine learning environments have deep and often specific dependencies.  These can often conflict, so as a rule you should start with a virtual environment.  This session assumes you are doing so.
@@ -87,11 +91,11 @@ Looking for speed? saving your data as python and then evaluating it to reload i
 
 ## command line arguments
 
-make your code easier to run.  Start with `begins` and then add parameters as needed.
+make your code easier to run.  Start with `begins` and then add parameters as needed. Check out the low pass filter and animation example.
 
-## ipython notebook
+## ipython/jupyter notebook
 
-I don't find this to be great for development, but it is great for sharing.
+I don't find this to be great for development, but it is great for sharing. Because many of these examples are in notebooks, I'm not covering this directly.
 
 ## visualization
 
