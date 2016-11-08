@@ -65,7 +65,7 @@ class QL:
     def bestNoRand(self, percept):  # FIXME naming
         bi = -1
         bv = float('-inf')
-        for q, v in self.table.iteritems():
+        for q, v in self.table.items():
             if q[0] != percept:
                 continue
             if v > bv:

@@ -19,7 +19,7 @@ def randrange(n):
 
 def reshape(l, width):
     l2 = zip(*[iter(l)] * width)
-    return l2
+    return list(l2)
 
 
 def gen_matrix(nSide=5, nColors=10):
